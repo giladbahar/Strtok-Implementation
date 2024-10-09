@@ -1,15 +1,11 @@
 
-Certainly! Here is the translated task that you can include in your README file:
-
-Task 3 (40 points)
 Define how delimiters are defined in a sentence. Specifically, consider a space, a comma, a period, a question mark, an exclamation mark, a pause in reading, a separator, and any other unique separator.
 
 A delimiter is a sequence of characters that separates words. Words can be separated by one or more delimiters. Delimiters can appear at the beginning, in the middle, or at the end of a word. A delimiter can be one or more characters.
 
 Write a function with the following signature:
 
-c
-Copy code
+
 char* my_strtok(char* sentence, char* separators);
 The function receives a sentence containing the sentence to be tokenized and a separators string containing all the characters that should be considered as delimiters.
 
